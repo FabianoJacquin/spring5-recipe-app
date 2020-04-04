@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a29575f-ac68-4c4e-9d58-e3a2286b1db6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
+    <list default="true" id="9a29575f-ac68-4c4e-9d58-e3a2286b1db6" name="Default Changelist" comment="Sesto commit. Creato entità UnitOfMeasure e aggiornato Ingredient">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/UnitOfMeasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1585804116465" duration="329000" />
       <workItem from="1585852264104" duration="4375000" />
       <workItem from="1585862474713" duration="492000" />
-      <workItem from="1586026562254" duration="2746000" />
+      <workItem from="1586026562254" duration="3413000" />
     </task>
     <task id="LOCAL-00001" summary="Primo commit">
       <created>1585804470229</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586029986770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Quinto ccmmit. Creato entità Ingredient e modificato di conseguenza Recipe">
+      <created>1586036800915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586036800915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,18 +125,19 @@
     <MESSAGE value="Secondo commit. Nel primo ho dimenticato il file application.properties" />
     <MESSAGE value="Terzo commit. Aggiunto IndexController e index.html. Aggiornato pom.xml in quanto dimenticato di inserire spring-snapshot e spring-milestones" />
     <MESSAGE value="Quarto ccmmit. Creato entità Notes e Recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quarto ccmmit. Creato entità Notes e Recipes" />
+    <MESSAGE value="Quinto ccmmit. Creato entità Ingredient e modificato di conseguenza Recipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quinto ccmmit. Creato entità Ingredient e modificato di conseguenza Recipe" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1586036652404">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1586037369903">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586036652404" />
-    <state x="34" y="52" key="CommitChangelistDialog2" timestamp="1586029986526">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586037369903" />
+    <state x="34" y="52" key="CommitChangelistDialog2" timestamp="1586037595381">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="34" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586029986526" />
+    <state x="34" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586037595381" />
     <state width="1398" height="370" key="GridCell.Tab.0.bottom" timestamp="1585862975780">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -178,10 +186,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585862511197" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586029988100">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586036802715">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586029988100" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586036802715" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586029364405">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
