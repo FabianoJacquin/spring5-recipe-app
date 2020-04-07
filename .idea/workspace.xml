@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a29575f-ac68-4c4e-9d58-e3a2286b1db6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Notes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/UnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/UnitOfMeasure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,8 @@
       <workItem from="1585862474713" duration="492000" />
       <workItem from="1586026562254" duration="3916000" />
       <workItem from="1586064238887" duration="9822000" />
-      <workItem from="1586266842548" duration="818000" />
+      <workItem from="1586266842548" duration="1581000" />
+      <workItem from="1586276987773" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="Primo commit">
       <created>1585804470229</created>
@@ -176,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586088833446</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Quattordicesimo commit. Modificato pom aggiungendo Lombok e rifatorizzato Category, Recipe e RecipeServiceImpl">
+      <created>1586276352943</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586276352943</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +210,8 @@
     <MESSAGE value="Undicesimo commit. In CategoryRepository e UnitOfMeasureRepository creato metodi findByDescription (Optional) e testato funzionamento in IndexController" />
     <MESSAGE value="Dodicesimo commit. Inserito 2 recipies con Bootstrap, modificato varie entities, creato RecipeService, modificato IndexController e index.html" />
     <MESSAGE value="Tredicesimo commit. Rifatorizzato RecipeBootstrap, Ingredient e Recipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tredicesimo commit. Rifatorizzato RecipeBootstrap, Ingredient e Recipe" />
+    <MESSAGE value="Quattordicesimo commit. Modificato pom aggiungendo Lombok e rifatorizzato Category, Recipe e RecipeServiceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quattordicesimo commit. Modificato pom aggiungendo Lombok e rifatorizzato Category, Recipe e RecipeServiceImpl" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -210,53 +223,53 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586077871803" />
-    <state x="0" y="105" key="CommitChangelistDialog2" timestamp="1586088833302">
+    <state x="0" y="105" key="CommitChangelistDialog2" timestamp="1586277945847">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586088833302" />
+    <state x="0" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586277945847" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1586275829457">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586275829457" />
-    <state width="1398" height="370" key="GridCell.Tab.0.bottom" timestamp="1586089815517">
+    <state width="1398" height="419" key="GridCell.Tab.0.bottom" timestamp="1586277707079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586089815517" />
+    <state width="1398" height="419" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586277707079" />
     <state width="1398" height="370" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586078197632" />
-    <state width="1398" height="370" key="GridCell.Tab.0.center" timestamp="1586089815517">
+    <state width="1398" height="419" key="GridCell.Tab.0.center" timestamp="1586277707077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586089815517" />
+    <state width="1398" height="419" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586277707077" />
     <state width="1398" height="370" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586078197630" />
-    <state width="1398" height="370" key="GridCell.Tab.0.left" timestamp="1586089815516">
+    <state width="1398" height="419" key="GridCell.Tab.0.left" timestamp="1586277707076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586089815516" />
+    <state width="1398" height="419" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586277707076" />
     <state width="1398" height="370" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586078197629" />
-    <state width="1398" height="370" key="GridCell.Tab.0.right" timestamp="1586089815517">
+    <state width="1398" height="419" key="GridCell.Tab.0.right" timestamp="1586277707078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586089815517" />
+    <state width="1398" height="419" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586277707078" />
     <state width="1398" height="370" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586078197631" />
-    <state width="1398" height="370" key="GridCell.Tab.1.bottom" timestamp="1586089815519">
+    <state width="1398" height="419" key="GridCell.Tab.1.bottom" timestamp="1586277707082">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586089815519" />
+    <state width="1398" height="419" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586277707082" />
     <state width="1398" height="370" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586078197639" />
-    <state width="1398" height="370" key="GridCell.Tab.1.center" timestamp="1586089815518">
+    <state width="1398" height="419" key="GridCell.Tab.1.center" timestamp="1586277707081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586089815518" />
+    <state width="1398" height="419" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586277707081" />
     <state width="1398" height="370" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586078197633" />
-    <state width="1398" height="370" key="GridCell.Tab.1.left" timestamp="1586089815518">
+    <state width="1398" height="419" key="GridCell.Tab.1.left" timestamp="1586277707080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586089815518" />
+    <state width="1398" height="419" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586277707080" />
     <state width="1398" height="370" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586078197633" />
-    <state width="1398" height="370" key="GridCell.Tab.1.right" timestamp="1586089815519">
+    <state width="1398" height="419" key="GridCell.Tab.1.right" timestamp="1586277707081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="370" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586089815519" />
+    <state width="1398" height="419" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586277707081" />
     <state width="1398" height="370" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586078197634" />
     <state x="240" y="106" key="Registry" timestamp="1585862302622">
       <screen x="0" y="0" width="1440" height="900" />
@@ -266,10 +279,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585862511197" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586088838143">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586276354380">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586088838143" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586276354380" />
     <state width="667" height="424" key="javadoc.popup" timestamp="1586069250254">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -285,19 +298,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/guru/springframework/domain/Ingredient.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/guru/springframework/controllers/IndexController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
