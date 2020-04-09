@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a29575f-ac68-4c4e-9d58-e3a2286b1db6" name="Default Changelist" comment="">
+    <list default="true" id="9a29575f-ac68-4c4e-9d58-e3a2286b1db6" name="Default Changelist" comment="Diciannovesimo commit. JUnit test su IndexController. Aggiunto Argument Captor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/controllers/IndexControllerTest.java" afterDir="false" />
     </list>
@@ -172,7 +172,7 @@
       <workItem from="1586064238887" duration="9822000" />
       <workItem from="1586266842548" duration="1581000" />
       <workItem from="1586276987773" duration="1234000" />
-      <workItem from="1586367114517" duration="8620000" />
+      <workItem from="1586367114517" duration="10990000" />
     </task>
     <task id="LOCAL-00001" summary="Primo commit">
       <created>1585804470229</created>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586420954569</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Diciannovesimo commit. JUnit test su IndexController. Aggiunto Argument Captor">
+      <created>1586427611468</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586427611468</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +334,8 @@
     <MESSAGE value="Sedicesimo commit. Inserito CDN Bootstrap nella index page e modificato index page" />
     <MESSAGE value="Diciasettesimo commit. JUnit test su Categorye RecipeServiceImpl" />
     <MESSAGE value="Diciottesimo commit. JUnit test su IndexController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diciottesimo commit. JUnit test su IndexController" />
+    <MESSAGE value="Diciannovesimo commit. JUnit test su IndexController. Aggiunto Argument Captor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diciannovesimo commit. JUnit test su IndexController. Aggiunto Argument Captor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -347,33 +355,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1586077871803" />
-    <state x="0" y="105" key="CommitChangelistDialog2" timestamp="1586420954406">
+    <state x="187" y="76" key="CommitChangelistDialog2" timestamp="1586431644223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586420954406" />
+    <state x="187" y="76" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586431644223" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1586275829457">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586275829457" />
-    <state width="1398" height="294" key="GridCell.Tab.0.bottom" timestamp="1586427496364">
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom" timestamp="1586434072604">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586427496364" />
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586434072604" />
     <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586420860388" />
-    <state width="1398" height="294" key="GridCell.Tab.0.center" timestamp="1586427496363">
+    <state width="1398" height="331" key="GridCell.Tab.0.center" timestamp="1586434072602">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586427496363" />
+    <state width="1398" height="331" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586434072602" />
     <state width="1398" height="331" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586420860386" />
-    <state width="1398" height="294" key="GridCell.Tab.0.left" timestamp="1586427496362">
+    <state width="1398" height="331" key="GridCell.Tab.0.left" timestamp="1586434072601">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586427496362" />
+    <state width="1398" height="331" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586434072601" />
     <state width="1398" height="331" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586420860385" />
-    <state width="1398" height="294" key="GridCell.Tab.0.right" timestamp="1586427496364">
+    <state width="1398" height="331" key="GridCell.Tab.0.right" timestamp="1586434072604">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586427496364" />
+    <state width="1398" height="331" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586434072604" />
     <state width="1398" height="331" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586420860387" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1586427496366">
       <screen x="0" y="0" width="1440" height="900" />
@@ -403,10 +411,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585862511197" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586420956017">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586427612849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586420956017" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586427612849" />
     <state x="471" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586417067370">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
